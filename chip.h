@@ -1,5 +1,7 @@
 
 class Visualizer;
+
+typedef vector<pair<int,int> > Path;
 class Chip
 {
 private:
