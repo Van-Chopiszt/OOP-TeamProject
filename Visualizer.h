@@ -1,18 +1,14 @@
-class Visualizer
-{
-private:
+#include "Chip.h"
+class Visualizer {
+   private:
     /* data */
-public:
+   public:
     Visualizer(/* args */);
     ~Visualizer();
 
-    draw(const Chip& chip);
+    void draw(const Chip& chip);
 };
 
-Visualizer::Visualizer(/* args */)
-{
-}
+Visualizer::Visualizer(/* args */) {}
 
-Visualizer::~Visualizer()
-{
-}
+Visualizer::~Visualizer() {}
